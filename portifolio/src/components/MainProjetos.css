@@ -1,0 +1,66 @@
+.barra {
+    width: 100%;
+    height: 8px; 
+    background-color: #504f4f;
+    margin-top: 80px; 
+}
+
+.main-projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/* Container principal agora gerencia as linhas para ficarem uma embaixo da outra */
+.main-projetos-content {
+    display: flex;
+    flex-direction: column; /* Faz os projetos ficarem em cima e embaixo */
+    gap: 100px; /* Espaço vertical entre o primeiro e o segundo projeto */
+    margin: 60px auto; 
+    width: 85%; 
+    max-width: 1100px; /* Evita que espalhe demais em telas muito grandes */
+}
+
+/* Cada linha de projeto mantém as suas configurações de alinhamento pelo topo */
+.projeto-linha {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; /* Alinha os elementos pelo topo */
+    justify-content: center;
+    gap: 60px; /* Espaço lateral entre a imagem e o card */
+    width: 100%;
+    margin-top: 70px;
+}
+
+/* Essa classe faz o segundo projeto espelhar de lado automaticamente */
+.projeto-linha.invertido {
+    flex-direction: row-reverse; 
+    margin-top: 100px;
+}
+
+/* Ajuste da Imagem */
+.imagem-projeto {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* O CARD EXATAMENTE COM AS SUAS MEDIDAS */
+.card-verde {
+    background-color: #384e39; 
+    color: #ffffff; 
+    padding: 35px;
+    border-radius: 24px; 
+    max-width: 300px; /* Sua medida */
+    height: 300px;    /* Sua medida */
+    font-size: 16px;
+    line-height: 1.6;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho de 300x300 dele */
+    
+    /* Mantém o deslocamento perfeito para baixo e para a direita */
+    box-shadow: 15px 15px 0px #1e2b1f; 
+}
