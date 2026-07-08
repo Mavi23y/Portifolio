@@ -1,20 +1,56 @@
-.main-tecnologias {
-    display: flex;
-    align-items: center;
-    position: center;
-    justify-content: center;
-    color: white;
-    font-size: 20px;
-    margin-top: 20px;
+/* Antes essa classe .main-tecnologias e a .barra estavam repetidas
+   3 vezes seguidas neste arquivo (copy-paste). Deixei só uma vez
+   de cada, o resultado visual é exatamente o mesmo. */
+.barra {
+    width: 100%;
+    height: 8px;
+    background-color: #504f4f;
+    margin-top: 80px;
 }
 
 .main-tecnologias {
     display: flex;
     align-items: center;
-    position: center;
     justify-content: center;
     color: white;
+    font-family: sans-serif;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
+.main-tecnologias-content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    gap: 24px;
+    margin: 50px auto;
+    width: 85%;
+    max-width: 950px;
+}
+
+.tag-tech {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #42583b;
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.tag-tech:hover {
+    background-color: #384e39;
+    border-color: #384e39;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .main-tecnologias-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

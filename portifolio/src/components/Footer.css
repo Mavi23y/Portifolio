@@ -1,0 +1,122 @@
+.footer-section {
+  position: relative;
+  background-color: #0b0b0b; /* Preto do fundo do site */
+  width: 100%;
+  margin-top: 60px;
+}
+
+/* Rampa diagonal idêntica ao Figma */
+.diagonal-clip {
+  width: 100%;
+  height: 120px;
+  background-color: #57735C; /* Seu verde principal */
+  clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+  margin-bottom: -1px; 
+}
+
+/* Bloco verde inferior */
+.footer-container {
+  background-color: #57735C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px 40px 20px;
+}
+
+.footer-title {
+  color: white;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* Área dos círculos das redes sociais */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; /* Espaço entre cada rede */
+  margin-bottom: 35px; 
+}
+
+/* Base idêntica para os links invisíveis */
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;  
+  height: 48px; 
+  transition: transform 0.2s ease;
+}
+
+.icon-link:hover {
+  transform: scale(1.15); 
+}
+
+/* Força as imagens a respeitarem a proporção sem distorcer */
+.icon-link img {
+  object-fit: contain;
+}
+
+/* ========================================================
+   AJUSTE INDIVIDUAL DE TAMANHO
+   ======================================================== */
+
+.icon-link img[alt="GitHub"] {
+  width: 100%;
+  height: 100%;
+}
+
+.icon-link img[alt="LinkedIn"] {
+  width: 200%;
+  height: 170%;
+}
+
+/* O Gmail costuma ser largo, se achar grande pode diminuir um pouco: */
+.icon-link img[alt="Gmail"] {
+  width: 100%;
+  height: 100%;
+}
+
+/* O Discord costuma ser menor ou maior dependendo do ícone, ajuste aqui: */
+.icon-link img[alt="Discord"] {
+  width: 120%;
+  height: 170%;
+}
+
+/* Estilização da nova barra de links (Modelo novo) */
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Espaço generoso entre as palavras */
+  margin-bottom: 40px;
+  flex-wrap: wrap; /* Não quebra o layout em celulares */
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none; /* Remove o sublinhado padrão de links */
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.85; /* Visual levemente refinado */
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Efeito Hover nos links de texto */
+.nav-link:hover {
+  opacity: 1;
+  text-decoration: underline; /* Adiciona o sublinhado elegante ao passar o mouse */
+}
+
+/* Texto de copyright lá no rodapé */
+.copyright-text {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 12px;
+  opacity: 0.5;
+  letter-spacing: 0.5px;
+}

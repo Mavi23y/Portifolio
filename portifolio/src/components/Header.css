@@ -6,22 +6,69 @@
   overflow: hidden;
 }
 
+/* Faz a página rolar suavemente quando clica nos links do menu */
+html {
+  scroll-behavior: smooth;
+}
+
 .navBar {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  gap: 28px;
   padding: 10px 0;
-  color: white;
-  font-size: 10px;
-  gap: 20px;
+  position: relative;
+  z-index: 2;
 }
 
+.navBar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.navBar a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
 
 .header-content {
   position: relative;
   z-index: 2;
   color: white;
   margin-top: 70px;
-  font-size: 18px;
+  font-family: sans-serif;
+}
+
+/* Estas 4 classes estavam sendo usadas no JSX mas não tinham nenhum
+   estilo definido aqui — por isso o texto ficava "feio" (sem tamanho,
+   sem espaçamento, tudo com a mesma aparência padrão do navegador) */
+.title-sejam,
+.title-bem-vindos {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 500px;
+  opacity: 0.9;
+  margin-top: 12px;
 }
 
 .wave-svg {
