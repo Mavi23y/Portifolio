@@ -44,9 +44,6 @@ html {
   font-family: sans-serif;
 }
 
-/* Estas 4 classes estavam sendo usadas no JSX mas não tinham nenhum
-   estilo definido aqui — por isso o texto ficava "feio" (sem tamanho,
-   sem espaçamento, tudo com a mesma aparência padrão do navegador) */
 .title-sejam,
 .title-bem-vindos {
   font-size: 48px;
@@ -54,6 +51,11 @@ html {
   line-height: 1.1;
   letter-spacing: 1px;
   margin: 0;
+}
+
+.text-vindos {
+  color: #B4C7BC;
+  margin-left: 4px; 
 }
 
 .subtitle {

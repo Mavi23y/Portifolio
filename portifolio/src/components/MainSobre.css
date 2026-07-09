@@ -11,17 +11,14 @@
     color: white;
     font-family: sans-serif;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
-/* "position: center;" foi removido daqui — não existe essa propriedade
-   em CSS (o navegador simplesmente ignorava a linha). O alinhamento
-   já é feito pelo align-items/justify-content abaixo. */
 .main-sobre-content {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
 }

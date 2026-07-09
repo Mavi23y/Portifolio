@@ -10,12 +10,14 @@ export default function Header() {
         <a href="#certificados">Certificados</a>
       </nav>
 
-      <div className="header-content">
+     <div className="header-content">
         <h1 className="title-sejam">SEJAM</h1>
-        <h1 className="title-bem-vindos">BEM VINDOS</h1>
-        <p className="subtitle">Olá, eu sou [Seu Nome]</p>
+        <h1 className="title-bem-vindos">
+          BEM <span className="text-vindos">VINDOS</span>
+        </h1>
+        <p className="subtitle">Olá, eu sou a Maria Vitória</p>
         <p className="description">
-          Desenvolvedora Full Stack formada em Técnico em Informática.
+          Desenvolvedora Full Stack formada em Técnico em Informática para internet.
           Transformo ideias em aplicações web modernas e funcionais.
         </p>
       </div>

@@ -1,6 +1,3 @@
-/* Antes essa classe .main-tecnologias e a .barra estavam repetidas
-   3 vezes seguidas neste arquivo (copy-paste). Deixei só uma vez
-   de cada, o resultado visual é exatamente o mesmo. */
 .barra {
     width: 100%;
     height: 8px;
