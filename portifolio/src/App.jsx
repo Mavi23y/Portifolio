@@ -5,6 +5,7 @@ import MainProjetos from './components/MainProjetos'
 import MainTecnologias from './components/MainTecnologias'
 import MainCertificados from './components/MainCertificados'
 import Footer from './components/Footer'
+import Scroll from './components/Scroll'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <MainTecnologias />
       <MainCertificados />
       <Footer />
+      <Scroll />
     
 
 

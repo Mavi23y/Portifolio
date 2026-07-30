@@ -1,7 +1,6 @@
 import React from 'react';
 import './MainSobre.css';
-import imagemCodigo from '../assets/codigoEu.png';
-import imagemEu from '../assets/fotoEu.png';
+import imagemEu from '../assets/joana.jpg';
 
 function MainSobre() {
   return (
@@ -12,9 +11,28 @@ function MainSobre() {
         <h2>&lt; Sobre Mim /&gt;</h2>
       </div>
 
-      <div className="main-sobre-content">
-        <img src={imagemEu} alt="Sobre Mim" />
-        <img src={imagemCodigo} alt="Sobre Mim" />
+      <div className="sobre-mim-conteudo">
+        {/* Lado Esquerdo: Foto com formato orgânico */}
+        <img 
+          src={imagemEu} 
+          alt="Minha Foto" 
+          className="foto-perfil" 
+        />
+
+        {/* Lado Direito: O bloco de código estilizado */}
+        <div className="card-codigo">
+          <pre>
+            <code>
+              <span className="purple">const</span> <span className="blue">developer</span> = &#123;<br />
+              {"  "}Nome: <span className="green">"Maria Vitória"</span>,<br />
+              {"  "}Formacao: <span className="green">"Técnico em Informática para internet"</span>,<br />
+              {"  "}Foco: <span className="green">"Desenvolvimento Full Stack"</span>,<br />
+              {"  "}Estudando: <span className="green">"React"</span>, <span className="green">"Python"</span>,<br />
+              {"  "}Objetivo: <span className="green">"Primeira oportunidade na área"</span><br />
+              &#125;;
+            </code>
+          </pre>
+        </div>
       </div>
     </div>
   );

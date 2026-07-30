@@ -67,6 +67,6 @@
 
 .card-verde:hover {
     transform: scale(1.05); 
-      box-shadow: 15px 15px 0px #2c3f2d;
+    box-shadow: 15px 15px 0px #2c3f2d;
     cursor: pointer;
 }

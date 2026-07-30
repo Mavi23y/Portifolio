@@ -1,24 +1,67 @@
 .barra {
-    width: 100%;
-    height: 8px;
-    background-color: #504f4f;
+  width: 100%;
+  height: 8px;
+  background-color: #504f4f;
 }
 
 .main-sobre {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: sans-serif;
-    font-size: 20px;
-    margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
 }
 
-.main-sobre-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-top: 10px;
+.sobre-mim-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px; /* Espaço entre a foto e o card de código */
+  flex-wrap: wrap; /* Para ficar responsivo no celular */
+  margin-top: 8px;
+  margin-bottom: 20px; /* Reduzido o espaço inferior aqui */
 }
+
+/* --- LADO ESQUERDO: FOTO ORGÂNICA --- */
+.foto-perfil {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  transition: transform 0.3s ease, border-radius 0.4s ease;
+}
+
+.foto-perfil:hover {
+  transform: scale(1.03);
+  border-radius: 40% 60% 70% 30% / 40% 70% 30% 60%;
+}
+
+/* --- LADO DIREITO: CARD DE CÓDIGO --- */
+.card-codigo {
+  background-color: #0d0d0d;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 24px 30px;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-size: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card-codigo:hover {
+  transform: translateY(-5px);
+  border-color: #384e39;
+  box-shadow: 0 15px 30px rgba(56, 78, 57, 0.2);
+}
+
+.card-codigo pre {
+  margin: 0;
+  color: #ffffff; /* Garante que as chaves e propriedades sem classe fiquem brancas */
+}
+
+/* Cores das palavras no código (Syntax Highlighting) */
+.purple { color: #c792ea; }
+.blue { color: #82aaff; }
+.green { color: #ecc48d; }

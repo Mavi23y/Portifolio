@@ -10,11 +10,7 @@ function MainProjetos() {
       <div className="main-projetos">
         <h2>&lt; Projetos /&gt;</h2>
       </div>
-
-      {/* O JSX chamava essa div de "main-projetos-container", mas no CSS
-          a classe que existe é "main-projetos-content" — por isso o gap,
-          o flex-direction column etc. definidos no CSS não estavam
-          funcionando. Corrigido para bater com o nome do CSS. */}
+      
       <div className="main-projetos-content">
         {/* PRIMEIRO PROJETO */}
         <div className="projeto-linha">
