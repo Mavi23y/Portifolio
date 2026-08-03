@@ -4,7 +4,7 @@ import './Scroll.css';
 export default function Scroll() {
   const [visible, setVisible] = useState(false);
 
-  // Monitora a posição do scroll da página
+  // Monitora a posição 
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.scrollY > 300) {
@@ -18,7 +18,7 @@ export default function Scroll() {
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 
-  // Função que rola a página suavemente para o topo
+  // Função que rola a página para o topo
   const scroll = () => {
     window.scrollTo({
       top: 0,

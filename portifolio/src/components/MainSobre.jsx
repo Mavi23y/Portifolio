@@ -12,24 +12,25 @@ function MainSobre() {
       </div>
 
       <div className="sobre-mim-conteudo">
-        {/* Lado Esquerdo: Foto com formato orgânico */}
+        {/* Lado Esquerdo: Foto */}
         <img 
           src={imagemEu} 
           alt="Minha Foto" 
           className="foto-perfil" 
         />
 
-        {/* Lado Direito: O bloco de código estilizado */}
+        {/* Lado Direito: Código  */}
         <div className="card-codigo">
           <pre>
-            <code>
-              <span className="purple">const</span> <span className="blue">developer</span> = &#123;<br />
-              {"  "}Nome: <span className="green">"Maria Vitória"</span>,<br />
-              {"  "}Formacao: <span className="green">"Técnico em Informática para internet"</span>,<br />
-              {"  "}Foco: <span className="green">"Desenvolvimento Full Stack"</span>,<br />
-              {"  "}Estudando: <span className="green">"React"</span>, <span className="green">"Python"</span>,<br />
-              {"  "}Objetivo: <span className="green">"Primeira oportunidade na área"</span><br />
-              &#125;;
+           <code>
+                  <span className="purple">const</span> <span className="blue">developer</span> = &#123;<br />
+                  {"  "}nome: <span className="green">"Maria Vitória"</span>,<br />
+                  {"  "}formacao: <span className="green">"Técnico em Informática para Internet (SENAI)"</span>,<br />
+                  {"  "}foco: <span className="green">"Desenvolvimento Full Stack"</span>,<br />
+                  {"  "}estudando: [<span className="green">"Python"</span>, 
+                  <span className="green">"Java"</span>],<br />
+                  {"  "}objetivo: <span className="green">"Primeira oportunidade na área"</span><br />
+                  &#125;;
             </code>
           </pre>
         </div>

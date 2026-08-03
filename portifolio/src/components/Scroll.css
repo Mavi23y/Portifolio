@@ -11,11 +11,9 @@
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   
-  /* Animação do pulinho */
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   z-index: 1000;
   
-  /* Centraliza a seta */
   display: flex;
   align-items: center;
   justify-content: center;

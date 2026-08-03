@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainProjetos.css';
-import imagemProjetos from '../assets/projetos.png';
+import imagemDaIlha from '../assets/daIlha.png';
+import imagemVilaBaby from '../assets/vilaBaby.png';
 
 function MainProjetos() {
   return (
@@ -14,24 +15,44 @@ function MainProjetos() {
       <div className="main-projetos-content">
         {/* PRIMEIRO PROJETO */}
         <div className="projeto-linha">
-          <img src={imagemProjetos} alt="Projeto 1" className="imagem-projeto" />
+
+       <a 
+          href="https://github.com/Mavi23y/Da-ilha.git" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="imagem-container"
+        >
+          <img src={imagemDaIlha} alt="Projeto Da Ilha" className="imagem-projeto" />
+          <div className="overlay">
+            <span>Ver no GitHub</span>
+          </div>
+       </a>
+
           <div className="card-verde">
             <p>
-              "O sistema funciona muito bem, é moderno e atualizado.
-              Qualquer dúvida vindo das utilidades do site/app são
-              atendidas com informações bem práticas".
+              Da Ilha é um projeto desenvolvido em equipe durante um hackathon na categoria de Entretenimento e Cultura. A plataforma gamificada foi criada para incentivar o turismo e o comércio local na Grande Florianópolis.
             </p>
           </div>
         </div>
 
         {/* SEGUNDO PROJETO */}
         <div className="projeto-linha invertido">
-          <img src={imagemProjetos} alt="Projeto 2" className="imagem-projeto" />
+
+        <a 
+          href="https://github.com/geve-dev/VILA-BABY-hackathon.git" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="imagem-container"
+        >
+          <img src={imagemVilaBaby} alt="Projeto VILA BABY" className="imagem-projeto" />
+          <div className="overlay">
+            <span>Ver no GitHub</span>
+          </div>
+       </a>
+
           <div className="card-verde">
             <p>
-              "O sistema funciona muito bem, é moderno e atualizado.
-              Qualquer dúvida vindo das utilidades do site/app são
-              atendidas com informações bem práticas".
+             Vila Baby é um projeto desenvolvido em equipe durante um hackathon na categoria de Conexão e Comunidade. A plataforma conecta pais por meio de "micro-vilas" baseadas na fase do bebê, unindo saúde mental e suporte especializado.
             </p>
           </div>
         </div>

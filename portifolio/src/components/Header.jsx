@@ -17,8 +17,8 @@ export default function Header() {
         </h1>
         <p className="subtitle">Olá, eu sou a Maria Vitória</p>
         <p className="description">
-          Desenvolvedora Full Stack formada em Técnico em Informática para internet.
-          Transformo ideias em aplicações web modernas e funcionais.
+          Formada em Técnico em Informática para Internet. <br /> 
+           Sigo estudando diariamente e busco aprender em cada projeto e aprimorar minhas habilidades em desenvolvimento web.
         </p>
       </div>
 

@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-/* Faz a página rolar suavemente quando clica nos links do menu */
+/* links do menu */
 html {
   scroll-behavior: smooth;
 }

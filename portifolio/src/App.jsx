@@ -19,11 +19,6 @@ function App() {
       <Footer />
       <Scroll />
     
-
-
-
-
-
     </div>
   )
 }
