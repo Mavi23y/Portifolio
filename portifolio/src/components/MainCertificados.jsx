@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainCertificados.css';
-import certificado from '../assets/js.png';
+import certificado from '../assets/jsCortada.png';
 
 
 function MainCertificados() {
@@ -16,7 +16,7 @@ function MainCertificados() {
         
         {/* CERTIFICADO 1 */}
         <a 
-          href="file:///C:/Users/User/Downloads/certificado_83652182.pdf" 
+          href="https://drive.google.com/drive/folders/16_LUfNzdmHbv6ubuVzwYO3I0G84QowiU?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer"
           className="img-certificado"
@@ -29,7 +29,7 @@ function MainCertificados() {
 
         {/* CERTIFICADO 2 */}
         <a 
-          href="file:///C:/Users/User/Downloads/certificado_83652182.pdf" 
+          href="https://drive.google.com/drive/folders/16_LUfNzdmHbv6ubuVzwYO3I0G84QowiU?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer"
           className="img-certificado"
@@ -42,7 +42,7 @@ function MainCertificados() {
 
         {/* CERTIFICADO 3 */}
         <a 
-          href="file:///C:/Users/User/Downloads/certificado_83652182.pdf" 
+          href="https://drive.google.com/drive/folders/16_LUfNzdmHbv6ubuVzwYO3I0G84QowiU?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer"
           className="img-certificado"
