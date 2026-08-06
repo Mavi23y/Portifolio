@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainSobre.css';
-import imagemEu from '../assets/joana.jpg';
+import imagemEu from '../assets/maria.jpeg';
 
 function MainSobre() {
   return (
