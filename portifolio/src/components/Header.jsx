@@ -17,7 +17,7 @@ export default function Header() {
         <p className="subtitle">Olá, eu sou a Maria Vitória</p>
         <p className="description">
           Formada em Técnico em Informática para Internet. <br /> 
-           Sigo estudando diariamente e busco aprender em cada projeto e aprimorar minhas habilidades em desenvolvimento web.
+           Sigo estudando diariamente, busco aprender em cada projeto e aprimorar minhas habilidades em desenvolvimento web.
         </p>
       </div>
 

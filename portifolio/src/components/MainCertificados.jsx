@@ -1,7 +1,8 @@
 import React from 'react';
 import './MainCertificados.css';
 import certificado from '../assets/jsCortada.png';
-
+// import certificado from '../assets/TiinCortada.png';
+// import certificado from '../assets/RcCortada.png';
 
 function MainCertificados() {
   return (

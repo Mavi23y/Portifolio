@@ -20,7 +20,7 @@ export default function Footer() {
             <img src={githubIcon} alt="GitHub" />
           </a>
 
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="icon-link">
+          <a href="https://www.linkedin.com/in/maria-vit%C3%B3ria-barizon-alves-614b98387" target="_blank" rel="noreferrer" className="icon-link">
             <img src={linkedinIcon} alt="LinkedIn" />
           </a>
 
@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
         
         <p className="copyright-text">
-          Copyright &copy; 2026; Todos os direitos reservados.
+          Copyright &copy; 2026; Maria Vitória Barizon Alves. Todos os direitos reservados.
         </p>
       </div>
     </footer>
